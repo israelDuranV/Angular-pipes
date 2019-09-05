@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
-  nombre = 'Israel Duran';
+  nombre = 'Israel Duran Velasco';
+  nombre2 = "axayACatl isrAel duraN veLaSco";
   arreglo = [1,2,3,4,5,6,7,8,9,10];
   PI = Math.PI;
   a  = 0.234;
@@ -26,4 +27,6 @@ export class AppComponent {
     setTimeout(()=>resolve('llegó la data'),3500);
   });
   fecha = new Date();
+  video = "40R__kGimwg";
+  activar = false;
 }
